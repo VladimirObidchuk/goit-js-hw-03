@@ -1,6 +1,6 @@
 function makeArray(array1,array2,number){
     const words = array1.concat(array2);
-    return words.lennght === number ? words : words.slice(0, number);
+    return words.length === number ? words : words.slice(0, number);
 }
 
 
